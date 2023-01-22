@@ -61,9 +61,6 @@ const App = () =>{
       case 'age':
         sortedItems = sortNumeric(['dob','age'],items);
         break;
-      // case 'cell':
-      //   sortedItems = sortTele(sortBy,items);
-      //   break;
       default:
         sortedItems = sortAsc(sortBy,items);
         break;
